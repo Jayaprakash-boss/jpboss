@@ -14,7 +14,7 @@ void main()
 	}
 	else
 	{
-		printf("This is not a vowel");
+		printf("This is a constant");
 	}
 	getch();
 }
