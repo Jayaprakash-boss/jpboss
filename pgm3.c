@@ -2,19 +2,22 @@
 #include<conio.h>
 void main()
 {
-	clrscr();
-	char ch;
-	printf("Enter an alphabet : ");
-	scanf("%c",&ch);
-	if(ch=='a' || ch=='A' || ch=='e' || ch=='E' ||
-	ch=='i' || ch=='I' || ch=='o' || ch=='O' ||
-	ch=='u' || ch=='U')
-	{
-		printf("This is a vowel");
-	}
-	else
-	{
-		printf("This is a constant");
-	}
-	getch();
+clrscr();
+	char c;
+scanf("%c",&c);
+if((c>='a' && c<='z') || (c>='A' && c<='Z'))
+{
+ if(c=='a' || c=='A' || c=='e' || c=='E' || c=='i' || c=='I' || c=='o' || c=='O' || c=='u' || c=='U')
+ {
+ printf("Vowel");
+ }
+  else
+ {
+  printf("Consonant");
+  }
+  }
+  else
+  {
+  printf("invalid");
+  }
 }
