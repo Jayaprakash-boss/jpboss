@@ -1,16 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-int main()
+#include<string.h>
+#include<stdlib.h>
+void main()
 {
-    char v[50];
-int i=0,c=0;
-gets(v);
- while(v[i]!='\0')
- {
-     if(v[i]==' ')
-        c++;
-        i++;
+    char a[50];
+    int n,s=0,i,b;
+    gets(a);
+    n=strlen(a);
+    for(i=0;i<n;i++)
+    {
+        if(a[i]== ' ')
+        {
+        s++;
+        }
     }
-    printf("%d",v);
+printf("%d",s);    
 }
