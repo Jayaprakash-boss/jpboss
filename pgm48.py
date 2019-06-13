@@ -1,0 +1,5 @@
+a1=int(input())
+l=list(map(int,input().split()))
+b1=sum(l)
+avg=int(b1/a1)
+print(avg)
