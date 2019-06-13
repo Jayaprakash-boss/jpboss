@@ -1,5 +1,5 @@
-a,b=map(str,input().split())
-if  a>b:
-  print(a)
+c,d=map(str,input().split())
+if  c>d:
+  print(c)
 else:
-  print(b)
+  print(d)
