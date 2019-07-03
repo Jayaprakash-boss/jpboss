@@ -4,7 +4,7 @@
 ?>
 <head>
   <meta charset="UTF-8">
-   <meta name="Author" content="Kasirajapandian">
+   <meta name="Author" content="Jayaprakash">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
  <link rel="stylesheet" href="css/fontawesome.min.css" type="text/css">
@@ -92,9 +92,6 @@
 	 <br>
 	  <br>
 	
-			<div class="footer">
-  <p>Copyright @ 2019 Jayaprakash</p>
-</div>
 </div>
 </div>
 </body>
