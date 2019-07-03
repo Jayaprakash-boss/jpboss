@@ -65,11 +65,6 @@ Our journey has been an exciting and rewarding one. We pride ourselves in develo
 	<?php 
 	include("include/side.php")
 	?>
-	
-	<div class="footer">
-  <p>Copyright @ 2019 Jayaprakash</p>
-</div>
-</div>
 </div>
 </body>
 </html>
