@@ -1,4 +1,3 @@
-
 <html>
 <?php
  include("config/db.php");
@@ -48,7 +47,7 @@ if(isset($_POST['SignIn'])){
 		
 	}
 	else{
-		echo'<script>alert("Invalid username and password")</script>';
+		echo'<script>alert("Invalid username and password,please try again")</script>';
 	}
 }
 
